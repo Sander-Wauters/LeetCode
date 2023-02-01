@@ -8,15 +8,8 @@ struct ListNode {
 	ListNode(int x, ListNode* next) : val(x), next(next) {}
 };
 
-class MergeTwoLists {
+class MergeTwoSortedLists {
 public:
-	/*
-	CONSTRAINTS:
-	The number of nodes in both lists is in the range[0, 50].
-	- 100 <= Node.val <= 100
-	Both list1 and list2 are sorted in non - decreasing order.
-	*/
-
 	ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) 
 	{
 		if (list1 == nullptr)
