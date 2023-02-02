@@ -6,13 +6,6 @@ class ValidParentheses
 public:
 	bool isValid(std::string s)
 	{
-		// EXAMPLE
-		// ([{}])[()]{{}}
-		// ([{   [(  {{
-		//    }])  )]  }}
-		// 
-		// (([]){})
-
 		if (s.size() <= 1 || (s[0] == ')' || s[0] == ']' || s[0] == '}'))
 			return false;
 
